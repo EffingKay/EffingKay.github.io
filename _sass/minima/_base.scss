@@ -235,7 +235,7 @@ pre {
   color: $text-color;
   font-style: normal;
   &:hover {
-    box-shadow: 4px 4px $text-color;
+    box-shadow: 4px 4px $text-color, inset 0 3em 0 $redColor;
     text-decoration: none;
   }
 }
