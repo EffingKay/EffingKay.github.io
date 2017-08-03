@@ -1,4 +1,5 @@
 <header>
+
   {% if page_paths %}
     <nav>
       <input type="checkbox" id="nav-trig" class="nav-trigger" />
@@ -12,6 +13,10 @@
         </span>
       </label>
       <div class="trigger">
+        {% assign default_paths = site.pages | map: "path" %}
+        {% assign page_paths = site.header_pages | default: default_paths %}
+        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        
         {% for path in page_paths %}
           {% assign my_page = site.pages | where: "path", path | first %}
           {% if my_page.title %}
@@ -19,12 +24,7 @@
           {% endif %}
         {% endfor %}
         <div class="nav-contact">
-          <a href="#">GITHUB</a>
-          <a href="#">TWITTER</a>
-          <a href="#">LINKEDIN</a>
-          <a href="#">CODEPEN</a>
-          <a href="#">EMAIL</a>
-          <a href="#">MEDIUM</a>
+          <!-- social icons -->
         </div>
       </div>
     </nav>

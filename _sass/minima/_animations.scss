@@ -1,46 +1,17 @@
-@keyframes neonOn {
+@keyframes anim3d {
   0% {
-    color: #232323;
-    text-shadow: 3px 3px 2px #282828;
+    text-shadow: 5px 4px $redColor, -5px -6px $blueColor;
   }
-  37% {
-    color: #232323;
-    text-shadow: 3px 3px 2px #282828;
+  25% {
+    text-shadow: -5px -6px $redColor, 5px 4px $blueColor;
   }
-  38% {
-    color: $text-color;
-    text-shadow: 0 0 25px $brand-color;
+  50% {
+    text-shadow: 5px -4px $redColor, -8px 4px $blueColor;
   }
-  41% {
-    color: #232323;
-    text-shadow: 3px 3px 2px #282828;
-  }
-  78% {
-    color: #232323;
-    text-shadow: 3px 3px 2px #282828;
-  }
-  80% {
-    color: $text-color;
-    text-shadow: 0 0 25px $brand-color;
-  }
-  82% {
-    color: #232323;
-    text-shadow: 3px 3px 2px #282828;
-  }
-  84% {
-    color: $text-color;
-    text-shadow: 0 0 25px $brand-color;
-  }
-  86% {
-    color: #232323;
-    text-shadow: 3px 3px 2px #282828;
-  }
-  99% {
-    color: #232323;
-    text-shadow: 3px 3px 2px #282828;
+  75% {
+    text-shadow: -8px -4px $redColor, -5px -4px $blueColor;
   }
   100% {
-    color: $text-color;
-    text-shadow: 0 0 25px $brand-color;
+    text-shadow: -5px 0 $redColor, 5px -4px $blueColor;
   }
 }
