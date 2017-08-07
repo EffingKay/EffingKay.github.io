@@ -41,12 +41,12 @@ Currently working as a developer at [WIREWAX](https://www.wirewax.com/), really 
 
 <div>
 
-<div class="about-section">
+<!-- <div class="about-section">
   <h1 class="about-header">#latest</h1>
   <div class='jekyll-twitter-plugin'>
     {% twitter https://twitter.com/EffingKay maxwidth=400 limit=3 %}  
   </div>
-</div>
+</div> -->
 
 
 <!--
