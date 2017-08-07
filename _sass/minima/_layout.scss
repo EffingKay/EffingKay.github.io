@@ -303,6 +303,17 @@ nav {
   }
 }
 
+@include media-query($on-palm) {
+  .landing-page {
+    h1 {
+      font-size: 6em;
+    }
+    p {
+      margin-left: 0;
+    }
+  }
+}
+
 
 /**
 * Contact page
@@ -466,6 +477,6 @@ a.social {
 
 @include media-query($on-palm) {
   .about-header {
-    font-size: 4.55em !important;
+    font-size: 4em !important;
   }
 }
