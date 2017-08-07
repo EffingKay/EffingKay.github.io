@@ -31,5 +31,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-plugins:
-  ['jekyll-twitter-plugin']
+# plugins:
+#   ['jekyll-twitter-plugin']

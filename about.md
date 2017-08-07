@@ -37,27 +37,7 @@ Currently working as a developer at [WIREWAX](https://www.wirewax.com/), really 
     <li><span>> Olenna Tyrell</span> <em>'Put the pen down, dear. We both know you're not writing anything'</em>, forever bitter, forever mourning</li>
     <li><span>> Vanity Fair</span> Where I get my latest dirt on Trump, latest celebrity gossip, mostly agreeable TV/movies reviews and their website design :heart-eyes-emoji:</li>
   </ul>
-  <br><br><br>
-
 <div>
 
-<!-- <div class="about-section">
-  <h1 class="about-header">#latest</h1>
-  <div class='jekyll-twitter-plugin'>
-    {% twitter https://twitter.com/EffingKay maxwidth=400 limit=3 %}  
-  </div>
-</div> -->
-
-
-<!--
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
- -->
 <br>
 <a href="http://rozgonyiova.com/contact" class="button">Like what you see?</a>
