@@ -60,4 +60,4 @@ You can find the source code for Jekyll at
 [jekyll](https://github.com/jekyll/jekyll)
  -->
 <br>
-<a href="https://rozgonyiova.com/contact" class="button">Like what you see?</a>
+<a href="http://rozgonyiova.com/contact" class="button">Like what you see?</a>

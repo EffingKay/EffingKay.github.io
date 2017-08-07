@@ -83,6 +83,13 @@ nav {
   }
 }
 
+@include media-query($on-palm) {
+  .trigger {
+    padding: 0 !important;
+    padding-top: 5em !important;
+  }
+}
+
 /**
 * Site footer
 */
@@ -195,8 +202,6 @@ nav {
   @include relative-font-size(1.5);
 }
 
-
-
 /**
 * Posts
 */
@@ -211,9 +216,17 @@ nav {
   border-top: $spacing-unit/3 solid $text-color;
   animation: anim3d 200ms 5;
 
-  @include media-query($on-laptop) {
-    @include relative-font-size(9.25);
+  @include media-query($on-palm) {
+    @include relative-font-size(5.625);
+    margin-top: .4em;
   }
+}
+
+.post-title-small {
+  @include relative-font-size(7.625);
+  border-top: $spacing-unit/3 solid $text-color;
+  line-height: 1em;
+  animation: anim3d 200ms 5;
 }
 
 .post-content {
@@ -242,8 +255,21 @@ nav {
       @include relative-font-size(1.125);
     }
   }
+  a i {
+    font-size: 3em;
+    &:hover {
+      color: $text-color;
+      animation: anim3d 200ms infinite;
+    }
+  }
 }
 
+@include media-query($on-palm) {
+  .post-title-small {
+    @include relative-font-size(4.625);
+    margin-top: .3em;
+  }
+}
 
 /**
 * Landing page
@@ -329,12 +355,18 @@ form {
 }
 
 a.social {
-  font-size: 2em;
+  font-size: 1em;
   transition: all .4s;
   &:hover {
     color: $text-color;
     animation: anim3d 200ms infinite;
     transform: scale(1.3);
+  }
+}
+
+@include media-query($on-palm) {
+  a.social {
+    font-size: .85em;
   }
 }
 
@@ -345,7 +377,7 @@ a.social {
   background-image: url('./599.jpg');
 }
 .project-info:nth-child(even) {
-  background-image: url('./614.jpg');
+  background-image: url('./607.jpg');
 }
 .project-info {
   // background-image: url('./599.jpg');
@@ -359,6 +391,10 @@ a.social {
       background: $text-color;
       color: $background-color;
       animation: anim3d 200ms infinite;
+      a {
+        text-decoration: none;
+        color: $background-color;
+      }
     }
     .project-image img {
       opacity: 1;
@@ -422,5 +458,14 @@ a.social {
     span {
       font-weight: bold;
     }
+    li {
+      padding-bottom: .3em;
+    }
+  }
+}
+
+@include media-query($on-palm) {
+  .about-header {
+    font-size: 4.55em !important;
   }
 }
